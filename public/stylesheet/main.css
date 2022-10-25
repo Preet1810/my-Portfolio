@@ -60,10 +60,10 @@ body,
 
 .navbar {
     margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
-
     position: relative;
     padding: 0;
     margin: 0;
@@ -85,71 +85,27 @@ h2 {
     background-color: #f8f8f8;
 }
 
-.hexagon {
-    position: relative;
-    margin: 100px auto;
-    width: 190px;
-    height: 110px;
-    background-image: url('https://i.imgur.com/IEiqEV0.jpg');
-    background-position: center center;
-    z-index: 1;
-    /* Text styling */
-    line-height: 110px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 6px;
-    color: #fff;
-    color: rgba(255, 255, 255, .5);
-    cursor: pointer;
-    transition: color 500ms ease, text-shadow 500ms ease;
+/* about cards */
+
+.card-img-top {
+    height: 170px;
+    width: 200px;
 }
 
-.hexagon:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
+.card {
+    border: 0;
+    width: 250px;
+    margin-top: 1rem;
 }
 
-.hexagon .face1,
-.hexagon .face2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: inherit;
-    z-index: -1;
-    /* Keeps borders smooth in webkit */
-    backface-visibility: hidden;
+.card-title {
+    margin-top: -1.25rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+
 }
 
-.hexagon .face1:before,
-.hexagon .face2:before {
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    background: inherit;
-}
-
-.hexagon .face1 {
-    transform: rotate(60deg);
-}
-
-.hexagon .face1:before {
-    left: 0;
-    transform-origin: left top;
-    transform: rotate(-60deg) translate(-110px, 0);
-}
-
-.hexagon .face2 {
-    transform: rotate(-60deg);
-}
-
-.hexagon .face2:before {
-    right: 0;
-    transform-origin: right top;
-    transform: rotate(60deg) translate(110px, 0);
+.card-text {
+    font-family: "Raleway", sans-serif;
 }

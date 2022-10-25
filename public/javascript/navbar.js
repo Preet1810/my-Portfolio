@@ -1,29 +1,11 @@
-// //jQuery to collapse the navbar on scroll
-// $(window).scroll(function () {
-//     if ($(".navbar").offset().top>50) {
-//         $(".navbar-fixed-top").addClass("top-nav-collapse");
-//     } else {
-//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-//     }
-// });
 
-// //jQuery for page scrolling feature - requires jQuery Easing plugin
-// $(function () {
-//     $('a.page-scroll').bind('click', function (event) {
-//         var $anchor=$(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
 
-window.onscroll=function () { scrollFunction() };
+$(window).scroll(function () {
+    const scroll=$(window).scrollTop();
 
-function scrollFunction() {
-    if (document.body.scrollTop>100||document.documentElement.scrollTop>600) {
-        document.getElementById("navbar").style.top="0";
+    if (scroll>=700) {
+        $(".navbar").addClass("fixed-top");
     } else {
-        document.getElementById("navbar").style.top="-50px";
+        $(".navbar").removeClass("fixed-top");
     }
-}
+});
