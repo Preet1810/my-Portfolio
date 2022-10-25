@@ -94,6 +94,11 @@
     border-color: #fff;
 }
 
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
 /* Sizes */
 .button--size-s {
     font-size: 14px;

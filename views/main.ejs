@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet/main.css">
     <link rel="stylesheet" href="stylesheet/mainbtn.css">
+    <link rel="stylesheet" href="stylesheet/navbar.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" crossorigin="anonymous"></script>
     <script src="https://rawgit.com/mrdoob/stats.js/master/build/stats.min.js" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
@@ -29,19 +31,129 @@
         </div>
     </div>
     <div class="viewbtn">
-        <button class="button button--nina button--border-thin button--round-s button--size-l button--text-medium"
-            data-text="My Work">
+        <a class="button button--nina button--border-thin button--round-s button--size-l button--text-medium"
+            data-text="My Work" href="#about">
             <span>M</span><span>y</span>
             <span>W</span><span>o</span><span>r</span><span>k</span>
-        </button>
+        </a>
     </div>
+    <!-- <nav class="navbar one-page-nav">
+        <nav class="wrapper">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="label-toggle"></label>
+            </input>
+            <ul id="navigation" class="nav">
+                <a href="#services" data-scroll="services">
+                    <li>Services</li>
+                </a>
+                <a href="#about" data-scroll="about">
+                    <li>About</li>
+                </a>
+                <a href="#testimonials" data-scroll="testimonials">
+                    <li>Testimonials</li>
+                </a>
+                <a href="#contact" data-scroll="contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#testimonials">Pricing</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" data-anchor="about" class="padd">
+        <div class="eight text-center">
+            <h2>About</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="hexagon">
+                    HEXAGON
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                </div>
+                <div class="hexagon">
+                    HEXAGON
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                </div>
+                <div class="hexagon">
+                    HEXAGON
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                </div>
+                <div class="hexagon">
+                    HEXAGON
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <section id="divider">Divider</section>
 
 
+    <section id="about" data-anchor="about" class="padd">
+        <div class="row">
+            <h1 class="text-center">About</h1>
+        </div>
+        <div class="row">
+            <p class="lead text-center text-red">About...</p>
+        </div>
+    </section>
+
+
+    <section id="divider">Divider</section>
+
+    <section id="testimonials" data-anchor="testimonials" class="padd">
+        <div class="row">
+            <h1 class="text-center">Testimonials</h1>
+        </div>
+        <div class="row">
+            <p class="lead text-center text-red">Testimonials...</p>
+        </div>
+    </section>
+
+    <section id="divider">Divider</section>
+
+    <section id="contact" data-anchor="contact" class="padd">
+        <div class="row">
+            <h1 class="text-center">Contact</h1>
+        </div>
+        <div class="row">
+            <p class="lead text-center text-red">Contact...</p>
+        </div>
+    </section>
+
+    <footer id="divider">Footer</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
     <script src="javascript/canvascode.js"></script>
     <script src="javascript/main.js"></script>
     <script src="javascript/navbar.js"></script>
+
 </body>
 
 
