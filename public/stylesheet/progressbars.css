@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+.progress-line__outer {
+    display: flex;
+    margin: 15px auto;
+}
