@@ -92,17 +92,28 @@ h2 {
 
 /* about cards */
 
-.card-img-top {
+.iconimage {
     height: 130px;
     width: 160px;
 }
 
-.card {
+.myimage {
+    height: 330px;
+    width: 360px;
+}
+
+.iconcards {
     border: 0;
     width: 230px;
     height: 250px;
     /*70% */
     margin-top: 1rem;
+}
+
+.mycard {
+    width: 430px;
+    height: 450px;
+    border: 0;
 }
 
 .col {
@@ -111,35 +122,58 @@ h2 {
     align-items: center;
 }
 
-.card-title {
+.imagepart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barpart {
+    margin-top: 3rem;
+}
+
+.icontitle {
     margin-top: -1.25rem;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 150%;
-
 }
 
-.card-text {
+.icontext {
     font-family: "Raleway", sans-serif;
 }
 
+.myprofile {
+    margin-top: 5rem;
+}
+
+.mytitle {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.mydesc {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
 @media (max-width:1078px) {
-    .card-img-top {
+    .iconimage {
         height: 80px;
         width: 110px;
     }
 
-    .card {
+    .iconcards {
         width: 190px;
         height: 150px;
     }
 
-    .card-title {
+    .icontitle {
         font-weight: 700;
         font-size: 0.75rem;
     }
 
-    .card-text {
+    .icontext {
         font-size: 10px;
     }
 }

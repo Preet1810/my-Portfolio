@@ -1,7 +1,121 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+.col-md-6 {}
 
-
-.progress-line__outer {
+.progress,
+.progress2,
+.progress3,
+.progress4,
+.progress5,
+.progress6 {
+    background: #eeeeee;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 01px;
     display: flex;
-    margin: 15px auto;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.progress-value,
+.progress-value2,
+.progress-value3,
+.progress-value4,
+.progress-value5,
+.progress-value6 {
+
+    box-shadow: 0 10px 40px -10px #00a1a7;
+    background: #00a1a7;
+    height: 25px;
+    width: 0;
+}
+
+.progress-value {
+    animation: java 3s normal forwards;
+}
+
+.progress-value2 {
+    animation: html 3s normal forwards;
+}
+
+.progress-value3 {
+    animation: css 3s normal forwards;
+}
+
+.progress-value4 {
+    animation: node 3s normal forwards;
+}
+
+.progress-value5 {
+    animation: express 3s normal forwards;
+}
+
+.progress-value6 {
+    animation: mongo 3s normal forwards;
+}
+
+@keyframes java {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 87%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes node {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes express {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes mongo {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.bar {
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 700;
 }
