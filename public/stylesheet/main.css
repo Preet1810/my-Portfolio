@@ -42,7 +42,7 @@ body,
 }
 
 .highlight {
-    color: aqua;
+    color: #3cd4d4;
 }
 
 @media (max-width:612px) {
@@ -68,27 +68,23 @@ body,
     margin-top: -0.5rem;
 }
 
-h2 {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400 !important;
-    font-size: 60px !important;
-    color: #080808;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+.heading {
+    font-family: "Raleway-bold", sans-serif;
+    color: rgb(62, 62, 60);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-
-.eight h2:after,
-.eight h2:before {
-    content: " ";
-    display: block;
-    border-bottom: 2px solid #ccc;
-    background-color: #f8f8f8;
+.space {
+    margin-bottom: 0rem;
+    visibility: hidden;
 }
+
 
 /* about cards */
 
@@ -178,8 +174,6 @@ h2 {
     }
 }
 
-/* @media (max-width:778px) {
-    .card-title {
-        font-size: 2rem;
-    }
-} */
+#projects {
+    background-color: rgb(170, 173, 175);
+}
