@@ -24,7 +24,7 @@ body {}
   flex: 0 1 250px;
   max-width: 250px;
   height: 137.5px;
-  margin: 65.4761904762px 12.5px 25px;
+  margin: 65.4761904762px 20.5px 25px;
   position: relative;
   padding: 0.5em;
   text-align: center;
@@ -84,7 +84,7 @@ body {}
 }
 
 .honeycomb-cell::after {
-  background: #3ea0eb;
+  background: black;
   opacity: 0.5;
   transition: opacity 350ms;
 }
@@ -94,7 +94,7 @@ body {}
 }
 
 .honeycomb-cell:hover::before {
-  background: #72f88e;
+  background: #3cd4d4;
 }
 
 .honeycomb-cell:hover::after {

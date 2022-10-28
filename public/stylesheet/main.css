@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    background-color: #080404;
+}
+
+.card {
+    background-color: #080404;
 }
 
 html,
@@ -68,16 +73,34 @@ body,
     margin-top: -0.5rem;
 }
 
+/* #about {
+    background-color: #3cd4d4;
+}
+
+#projects {
+    background-color: rgb(166, 102, 18);
+}
+
+#contact {
+    background-color: rgb(192, 16, 16);
+} */
+
+/* section {
+    height: 100%;
+    width: 100%;
+} */
+
 .heading {
     font-family: "Raleway-bold", sans-serif;
-    color: rgb(62, 62, 60);
+    /* color: rgb(188, 188, 188); */
+    color: aliceblue;
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 3px;
     text-decoration: underline;
     text-underline-offset: 20px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    /* margin-top: 5rem; */
+    margin: 5rem;
 }
 
 .space {
@@ -85,6 +108,24 @@ body,
     visibility: hidden;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191515 !important;
+
+}
+
+.nav-link {
+    font-family: "Raleway", sans-serif;
+    margin-right: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #3cd4d4;
+}
 
 /* about cards */
 
@@ -133,10 +174,12 @@ body,
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 150%;
+    color: aliceblue;
 }
 
 .icontext {
     font-family: "Raleway", sans-serif;
+    color: aliceblue;
 }
 
 .myprofile {
@@ -146,11 +189,12 @@ body,
 .mytitle {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    color: aliceblue;
 }
 
 .mydesc {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    color: aliceblue;
 }
 
 @media (max-width:1078px) {
