@@ -43,9 +43,11 @@ ul.social-icons {
     display: inline;
     height: 100px;
     margin: 10px;
+    margin-left: 15px;
 }
 
 .social-icons a {
+
     color: #fff;
     text-decoration: none;
 }
