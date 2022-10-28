@@ -73,6 +73,10 @@ body,
     margin-top: -0.5rem;
 }
 
+#projects {
+    margin-bottom: 10rem;
+}
+
 /* #about {
     background-color: #3cd4d4;
 }
@@ -100,12 +104,16 @@ body,
     text-decoration: underline;
     text-underline-offset: 20px;
     /* margin-top: 5rem; */
-    margin: 5rem;
+    margin: 7rem;
 }
 
 .space {
     margin-bottom: 0rem;
     visibility: hidden;
+}
+
+footer {
+    margin-top: 5rem;
 }
 
 .navbar {
