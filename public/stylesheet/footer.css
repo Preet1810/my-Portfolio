@@ -137,7 +137,8 @@ ul.social-icons {
 }
 
 .footer {
-    background: rgb(204, 195, 195);
+    /* background: rgb(204, 195, 195); */
+    background-color: rgb(55, 54, 54);
     padding: 30px 0px;
     font-family: "Raleway", sans-serif;
     text-align: center;

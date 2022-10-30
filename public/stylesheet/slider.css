@@ -24,7 +24,7 @@ body {}
   flex: 0 1 250px;
   max-width: 250px;
   height: 137.5px;
-  margin: 65.4761904762px 20.5px 25px;
+  margin: 65.4761904762px 35.5px 25px;
   position: relative;
   padding: 0.5em;
   text-align: center;
@@ -101,6 +101,23 @@ body {}
   opacity: 0;
 }
 
+.honeycomb-cell a {
+  background-color: #fff;
+  color: black;
+}
+
+.honeycomb-cell .yelp:hover {
+  background-color: rgb(153, 115, 55);
+}
+
+.honeycomb-cell .snap:hover {
+  background-color: rgb(134, 59, 248);
+}
+
+.honeycomb-cell .candy:hover {
+  background-color: rgb(171, 73, 176);
+}
+
 .honeycomb__placeholder {
   display: none;
   opacity: 0;
@@ -156,5 +173,7 @@ body {}
     display: block;
   }
 }
+
+
 
 /*# sourceMappingURL=slider.css.map */
